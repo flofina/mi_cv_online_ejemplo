@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #343a40;
+  padding: 15px;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+
+h1, h4 {
+  margin: 0;
+  display: inline-block;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+.logo { 
+  position: absolute;
+  left: 100px;
+}
+
+.menu {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.principal {
+  background-color: #1abc9c;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.img-perfil {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700; 
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700; 
+}
+
+.portfolio {
+  color: #343a40;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  margin: 15px;
+}
+
+.img img {
+  width: 100%;
+}
+
+.about {
+  background-color: #1abc9c;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.columnas {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 400; 
+  width: 250px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+  
