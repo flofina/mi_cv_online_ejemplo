@@ -100,5 +100,51 @@ h3 {
   padding-right: 50px;
 }
 
+.contact {
+  color: #343a40;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-  
+fieldset {
+  border: none;
+}
+
+input {
+  padding: 6px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  width: 610px;
+  height: 60px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px, color #343a40; 
+}
+
+textarea {
+  width: 610px;
+  height: 200px;
+  padding: 6px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px, color #343a40; 
+}
+
+input[type=submit] {
+  height: 70px;
+  width: 100px;
+  padding: 6px;
+  color: white;
+  background-color: #1abc9c;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #343a40;
+}
