@@ -65,6 +65,7 @@ h3 {
 
 .portfolio {
   color: #343a40;
+  height: 640px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -83,6 +84,7 @@ h3 {
 
 .about {
   background-color: #1abc9c;
+  height: 640px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -103,6 +105,7 @@ h3 {
 .contact {
   color: #343a40;
   text-align: center;
+  height: 640px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
