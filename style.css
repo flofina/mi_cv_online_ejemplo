@@ -7,12 +7,19 @@ body {
   font-weight: bold;
 }
 
-.header {
+.nav {
   background-color: #343a40;
   padding: 15px;
   width: 100%;
   height: 50px;
   position: fixed;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .nav {
+    padding: 0;
+    height: 80px;
+  }
 }
 
 h1, h4 {
@@ -27,12 +34,29 @@ h4 {
 .logo { 
   position: absolute;
   left: 100px;
+  bottom: 30px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .logo {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+  }
 }
 
 .menu {
   position: absolute;
   right: 100px;
   top: 30px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .menu {
+    display: none;
+  }
 }
 
 a {
@@ -45,6 +69,13 @@ a {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 50px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .principal {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
 }
 
 .img-perfil {
@@ -63,6 +94,12 @@ h3 {
   font-weight: 700; 
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  h3 {
+    font-size: 15px;
+  }
+}
+
 .portfolio {
   color: #343a40;
   height: 640px;
@@ -71,11 +108,28 @@ h3 {
   padding-bottom: 50px;
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  .portfolio {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .img {
   display: inline-block;
   width: 250px;
   text-align: center;
   margin: 15px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .img {
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
 }
 
 .img img {
@@ -90,6 +144,15 @@ h3 {
   padding-bottom: 50px;
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  .about {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
 .columnas {
   display: inline-block;
   text-align: left;
@@ -102,12 +165,27 @@ h3 {
   padding-right: 50px;
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  .columnas {
+    text-align: center;
+    font-weight: 400; 
+    height: 100%;
+  }
+}
+
 .contact {
   color: #343a40;
   text-align: center;
-  height: 640px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+  }
 }
 
 fieldset {
@@ -126,6 +204,14 @@ input {
   border-bottom: 1px, color #343a40; 
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  input {
+    font-size: 18px;
+    width: 80%;
+    height: 30px;
+  }
+}
+
 textarea {
   width: 610px;
   height: 200px;
@@ -138,6 +224,13 @@ textarea {
   border-bottom: 1px, color #343a40; 
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  textarea {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+
 input[type=submit] {
   height: 70px;
   width: 100px;
@@ -148,6 +241,58 @@ input[type=submit] {
   border-radius: 10px;
 }
 
+@media (min-width: 1px) and (max-width: 800px){
+  input[type=submit] {
+    width: 80%;
+  }
+}
+
 input[type=submit]:hover {
   background-color: #343a40;
+}
+
+footer {
+  background-color: #343a40;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: absolute;
+  width: 100%;
+}
+
+.col-footer {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 400px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .col-footer {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+.img-footer {
+  width: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.img-footer img {
+  width: 100%;
+  height: 100%;
+}
+
+.copyright {
+  font-size: 15px;
+  margin-top: 30px;
+  vertical-align: bottom;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .copyright {
+    font-size: 10px;
+  }
 }
