@@ -102,7 +102,6 @@ h3 {
 
 .portfolio {
   color: #343a40;
-  height: 640px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -116,24 +115,33 @@ h3 {
   }
 }
 
-.img {
-  display: inline-block;
-  width: 250px;
-  text-align: center;
-  margin: 15px;
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media (min-width: 1px) and (max-width: 800px){
-  .img {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.row img {
+  width: 300px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1px) and (max-width: 800px){
+  .row img {
     text-align: center;
     width: 80%;
     margin: 0;
     padding-bottom: 30px;
   }
-}
-
-.img img {
-  width: 100%;
 }
 
 .about {
